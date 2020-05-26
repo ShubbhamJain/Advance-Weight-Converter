@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Weight Converter</title>
+  </head>
+  <body class="bg-dark" style="margin-top : 70px">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center text-white display-4 mb-3">Weight Converter</h1>
+        </div>
+      </div>
+      <div class="row text-white text-center">
+        <div class="col">
+          <div id="msg" class="mb-3"></div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <form>
+            <input type="number" id="weightinput" class="form-control" value=0>
+          </form>
+        </div>
+        <div class="col-6">
+          <select id="weightselector1" class="custom-select">
+            <option value="select">--Select Unit--</option>
+            <option value="tonne">Tonne</option>
+            <option value="kilogram">Kilogram</option>
+            <option value="pound">Pound</option>
+            <option value="ounce">Ounce</option>
+          </select>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <div id="outputWeight" class="bg-white form-control"></div>
+        </div>
+        <div class="col-6">
+          <select id="weightselector2" class="custom-select">
+            <option value="select">--Select Unit--</option>
+            <option value="tonne">Tonne</option>
+            <option value="kilogram">Kilogram</option>
+            <option value="pound">Pound</option>
+            <option value="ounce">Ounce</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
